@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://www.icj.me/assets/images/penguin.png"><br>
-  canijailbreak.com
+  <img src="https://sharefile.vn/blog/wp-content/uploads/sites/2/2017/03/penguin.png"><br>
+  <a href="https://checkjb.sharefile.vn/">checkjb.sharefile.vn</a>
 </h1>
 
 <p align="center">
-  <a href="https://travis-ci.org/cj123/canijailbreak.com"><img src="https://travis-ci.org/cj123/canijailbreak.com.svg?branch=master" alt="Build Status"></a>
+  <a href="https://travis-ci.org/maxskillking/checkjb.sharefile.vn"><img src="https://travis-ci.org/cj123/canijailbreak.com.svg?branch=master" alt="Build Status"></a>
 </p>
 
 a website which tells you whether you can jailbreak your iPhone, iPad, iPod touch or Apple TV.
@@ -26,15 +26,15 @@ A few guidelines for contributing:
 
 ```bash
 
-$ go get github.com/cj123/canijailbreak.com
-$ cd $GOPATH/src/github.com/cj123/canijailbreak.com
+$ go get github.com/maxskillking/checkjb.sharefile.vn
+$ cd $GOPATH/src/github.com/maxskillking/checkjb.sharefile.vn
 $ go build .
 ```
 
 ## running it
 
 ```bash
-$ ./canijailbreak.com --help
+$ ./checkjb.sharefile.vn --help
 ```
 
 This will generate output, by default into `./static`. 
@@ -43,4 +43,4 @@ This will generate output, by default into `./static`.
 
 look in the file `./jailbreaks.json` for a layout
 
-then run the `./canijailbreak.com` util again
+then run the `./checkjb.sharefile.vn` util again
